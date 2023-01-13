@@ -30,7 +30,7 @@ In this project you'll choose an api to consume. You will build an application f
 
 - [ ] Build a React Redux app
 - [ ] Fetch data inside an async action creator from an API of your choosing
-- [ ] Add the data from the API to the Redux store
+- [ ] Add the data from the API to the Redux store - Naruto api link - https://naruto-api.herokuapp.com/api/v1/characters
 - [ ] Display the data from the store in a component
 - [ ] _Some_ styling must be applied. It can be basic, but the app must not only use browser default stylings
 
@@ -39,3 +39,5 @@ In this project you'll choose an api to consume. You will build an application f
 - [ ] Connect your fork to Codegrade using the "Connect Git" button.
 - [ ] Find your newly created fork from the list and push your work to main.
 - [ ] Check this video for details: www.youtube.com/watch?v=fC2BO7dI6IQ
+
+
