@@ -1,7 +1,10 @@
 import React, { useEffect } from 'react';
 import { getAllCharacters } from './actions';
-import './App.css';
 import { connect } from 'react-redux';
+import Character from './components/character';
+
+import './App.css';
+import './character.css'
 
 function App({ getAllCharacters, characters }) {
 
@@ -13,12 +16,14 @@ function App({ getAllCharacters, characters }) {
     <div className="App">
       Async Redux Project
 
-    <div>Lionel
-      
-    </div>
-      <div className="Characters">
-        {characters.map(character => <h1>{character.name}</h1>)}
+      <div>
+        Lionel Project
       </div>
+
+      <div className="characters">
+        {characters.map(character => <Character key={character.name} character={character} />)}
+      </div>
+
     </div>
   );
 }
