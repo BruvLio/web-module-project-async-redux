@@ -44,10 +44,12 @@
     "react-dom": "17.0.2",
     "react-redux": "^7.2.6",
     "react-router-dom": "5.2.0",
-    "redux": "^4.1.2",
+    "redux": "^4.2.0",
+    "redux-thunk": "^2.4.2",
     "sass": "^1.32.8",
     "style-loader": "^3.3.1",
     "styled-components": "5.3.3",
+    "thunk": "^0.0.1",
     "webpack-cli": "^4.9.1"
   }
 }
